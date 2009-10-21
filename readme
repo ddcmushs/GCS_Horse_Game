@@ -6,7 +6,7 @@ When we want to upload your changes to the master, we will clone your project to
 First setup:
   Download and install Git
   git config --global user.name "Your Name"
-  git config --global user.email pcd@andrew.cmu.edu
+  git config --global user.email andrewid@andrew.cmu.edu
 
 Do this ONLY ONCE
   mkdir GCS_Horse_Game
