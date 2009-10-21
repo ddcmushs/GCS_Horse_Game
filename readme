@@ -1,1 +1,21 @@
-A tutorial will be placed here shortly
+Here are the instructions form git hub on how to begin slightly modified by me.
+
+The first thing you will want to do is log into your github account and fork my project. ONLY DO THIS ONCE.
+When we want to upload your changes to the master, we will clone your project to my laptop or afs and I will push it to my master account.
+
+First setup:
+  Download and install Git
+  git config --global user.name "Your Name"
+  git config --global user.email pcd@andrew.cmu.edu
+
+Do this ONLY ONCE
+  mkdir GCS_Horse_Game
+  cd GCS_Horse_Game
+  git init
+  git remote add yourname git@github.com:usrname/Temp.git
+
+Do this every time you want to update a file:
+  touch filename // if you are adding or updating a file type this commad for each file
+  git add README // if you are adding or updating a file type this command for each file
+  git commit -m 'first commit' //if you are adding or updating fils type this command once
+  git push yourname master
