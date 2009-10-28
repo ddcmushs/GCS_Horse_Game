@@ -6,19 +6,12 @@ First setup:
   Download and install Git
   git config --global user.name "Your Name"
   git config --global user.email andrewid@andrew.cmu.edu
-  git clone git://github.com/ddcmushs/GCS_Horse_Game.git
+  git clone git@github.com:ddcmushs/GCS_Horse_Game.git 
   git remote add git@github.com:ddcmushs/GCS_Horse_Game.git
   git pull
   git checkout origin -tb Darren origin/Darren // this will pull my branch...repeat this for all members in the group
   git branch Yourname //will make your branch
   git checkout Yourname //will switch to your branch
-  
-Cheat Sheet:
-  git branch - this lists all the 
-  git checkout branch - swtich between branches
-  git status - list the status of files in the branch
-  git add filename - add a file for committing
-  git rm filename -remove a file
-  git commit -m "commit changes with a certain message"
-  git push origin branch - push changes to a branch
-  more will come later
+  git push origin Yourname
+ 
+http://ktown.kde.org/~zrusin/git/git-cheat-sheet-medium.png
