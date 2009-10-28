@@ -15,13 +15,15 @@ The first thing you will want to do is log into your github account and add your
 
 First setup:
   Download and install Git
-  git config --global user.name "Your Name"
-  git config --global user.email andrewid@andrew.cmu.edu
+  git config --global user.name <your name here>
+  git config --global user.email <andrewid@andrew.cmu.edu>
+  git config --global github.user <githubusername>
+  git config --global gihub.token <find this in github account settings>
   git clone git@github.com:ddcmushs/GCS_Horse_Game.git 
   cd GCS_Horse_Game
-  git checkout origin -tb Darren origin/Darren // this will pull my branch...repeat this for all members in the group
-  git branch Yourname //will make your branch
-  git checkout Yourname //will switch to your branch
-  git push origin Yourname
+  git checkout -b <new_branch_name> origin/<remote branch name> // this will pull my branch...repeat this for all members in the group
+  git branch <Yourname> //will make your branch
+  git checkout <Yourname> //will switch to your branch
+  git push origin <Yourname> // only need to do this once, afterwards just do git push
  
 http://ktown.kde.org/~zrusin/git/git-cheat-sheet-medium.png
