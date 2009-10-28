@@ -1,0 +1,9 @@
+So please be very careful but do the following. COPY (do not move) your files into the GCS_Horse_Game folder and execute these commands:
+
+git add .
+git commit -m "Enter a message here"
+git push origin rdmarsh
+
+call me at 301-395-7195
+
+don't do any more git work for the rest of the day. I'm fixing up the tutorial and making sure it covers EVERYTHING so nothing gets accidentally deleted.
