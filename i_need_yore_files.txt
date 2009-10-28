@@ -1,0 +1,9 @@
+So please do this VERY CAREFULY.
+
+COPY (do not move) your files into the GCS_Horse_Game folder and execute these commands:
+
+git add .
+git commit -m "Enter a message"
+git push
+
+call me at 301-395-7195
