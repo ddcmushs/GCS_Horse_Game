@@ -18,9 +18,7 @@ First setup:
   git config --global user.name "Your Name"
   git config --global user.email andrewid@andrew.cmu.edu
   git clone git@github.com:ddcmushs/GCS_Horse_Game.git 
-  git remote add git@github.com:ddcmushs/GCS_Horse_Game.git
   cd GCS_Horse_Game
-  git pull
   git checkout origin -tb Darren origin/Darren // this will pull my branch...repeat this for all members in the group
   git branch Yourname //will make your branch
   git checkout Yourname //will switch to your branch
