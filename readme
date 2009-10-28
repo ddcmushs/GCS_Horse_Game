@@ -1,4 +1,15 @@
-Here are the instructions form git hub on how to begin slightly modified by me.
+Windows users should install cygwin and choose these packages when asked to:
+
+From the development section install:
+        automake
+        binutils
+        cmake
+        gcc for c (should include gcc core and gcc g++)
+        git
+From the editors section install:
+        emacs
+        nano
+        vim
 
 The first thing you will want to do is log into your github account and add your ssh public key to your account info in the appropriate area. ONLY DO THIS ONCE.
 
@@ -8,6 +19,7 @@ First setup:
   git config --global user.email andrewid@andrew.cmu.edu
   git clone git@github.com:ddcmushs/GCS_Horse_Game.git 
   git remote add git@github.com:ddcmushs/GCS_Horse_Game.git
+  cd GCS_Horse_Game
   git pull
   git checkout origin -tb Darren origin/Darren // this will pull my branch...repeat this for all members in the group
   git branch Yourname //will make your branch
